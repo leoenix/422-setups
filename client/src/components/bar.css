@@ -1,0 +1,36 @@
+.bar {
+  background-color: #87CEEB; 
+}
+
+.bar ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+.bar li {
+  float: left;
+}
+
+.bar a {
+  display: block;
+  color: #2E4053;
+  padding: 20px 20px;
+  text-decoration: none;
+  font-weight: bolder;
+}
+
+.bar a:hover {
+  background-color: #2E4053;
+  color: #87CEEB;
+}
+
+.bar li.active {
+  background-color: #2E4053;
+}
+
+.bar li.active a {
+  color: #87CEEB;
+}
+

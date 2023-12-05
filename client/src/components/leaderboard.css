@@ -1,0 +1,26 @@
+/* Leaderboard.css */
+.container {
+  margin: 20px;
+  padding: 20px;
+  background-color: #f0f8ff; /* Light blue background */
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+.table th, .table td {
+  padding: 12px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+.table th {
+  background-color: #4682b4; /* SteelBlue header background */
+  color: #fff;
+}
+
